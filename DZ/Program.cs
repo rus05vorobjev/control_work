@@ -31,3 +31,15 @@ string [] symbol(string [] Arr)
   }
   return result;
 } 
+
+void print(string [] Arr)
+{
+    Console.Write("[");
+    for (int i = 0;i<Arr.Length;i++)
+    {
+    Console.Write($"‘{Arr[i]}’, ");
+    }
+    Console.Write("]");
+}
+array(Arr);
+print(symbol(Arr));
